@@ -1,0 +1,81 @@
+/* Tokens de design do J1 — cores derivadas da logo (azul-marinho → azul → ciano). */
+:root {
+  color-scheme: light;
+
+  --navy-900: #0a1c45;
+  --navy: #102654;
+  --blue-800: #0d3f9e;
+  --blue-700: #1553c0;
+  --blue: #1769da;
+  --blue-500: #239af0;
+  --cyan: #49c9f4;
+  --blue-100: #d8e9ff;
+  --blue-50: #eaf4ff;
+  --blue-25: #f4f9ff;
+  --violet: #5a55d8;
+  --violet-500: #7b6cf0;
+
+  --bg: #f6f9fe;
+  --surface: #ffffff;
+  --surface-2: #f8fbff;
+  --text: #0f1b3d;
+  --text-2: #64748b;
+  --text-3: #94a3b8;
+  --border: #e4ebf6;
+  --border-strong: #c9d6ea;
+
+  --success: #13924a;
+  --success-bg: #e7f7ee;
+  --danger: #dc3d43;
+  --danger-bg: #fdeced;
+  --warning: #b45309;
+  --warning-bg: #fef3e2;
+
+  --grad-hero: linear-gradient(118deg, #0b2f78 0%, #1459c9 52%, #239af0 100%);
+  --grad-primary: linear-gradient(135deg, #1563d4 0%, #239af0 100%);
+  --grad-logo: linear-gradient(160deg, #1b4fb8 0%, #2a8ff0 60%, #56d0f8 100%);
+  --grad-violet: linear-gradient(140deg, #4d49cf 0%, #7b6cf0 100%);
+  --grad-cyan: linear-gradient(140deg, #1c8ee8 0%, #49c9f4 100%);
+
+  --radius-xs: 8px;
+  --radius-sm: 12px;
+  --radius: 16px;
+  --radius-lg: 22px;
+  --radius-full: 999px;
+
+  --shadow-xs: 0 1px 2px rgba(16, 38, 84, 0.05);
+  --shadow-sm: 0 2px 8px rgba(16, 38, 84, 0.05);
+  --shadow: 0 6px 20px rgba(16, 38, 84, 0.07);
+  --shadow-blue: 0 10px 28px rgba(23, 105, 218, 0.28);
+
+  --font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: 2.375rem;
+
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 20px;
+  --s6: 24px;
+  --s8: 32px;
+
+  --touch: 44px;
+  --nav-h: 62px;
+  --sidebar-w: 240px;
+  --content-w: 640px;
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
